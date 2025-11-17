@@ -12,6 +12,9 @@ public/
 # Hugo resources (processed assets)
 resources/
 
+#Hugo vendor
+_vendor/
+
 # Hugo build lock
 .hugo_build.lock
 

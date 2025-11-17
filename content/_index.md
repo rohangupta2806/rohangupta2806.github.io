@@ -14,7 +14,7 @@ sections:
       text: |-
         Thanks for dropping by. I'm currently building this site.
 
-        Need to reach me in the meantime? Shoot me a note below.
+        Need to reach me in the meantime? Email me at guprohan@umich.edu
       buttons:
         - text: Email Me
           url: mailto:guprohan@umich.edu

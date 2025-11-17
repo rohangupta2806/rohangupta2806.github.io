@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Rohan Gupta
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Rohan
+last_name: Gupta
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,25 +23,25 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: PhD Student in Astronomy
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Michigan
+    url: https://lsa.umich.edu/astro
+    address: |-
+      323 West Hall
+      1085 S. University Ave
+      Ann Arbor, MI 48109
+    email: guprohan@umich.edu
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/rohangupta2806
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/gupta-rohan2806/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=alexjohnson
   - icon: academicons/orcid
@@ -54,34 +54,33 @@ interests:
   - AI Ethics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: PhD Astronomy
+    institution: University of Michigan
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    logo: U-M_Logo-PMS.svg
+    date_start: 2025-09-01
+    date_end: ''
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
+      Advisor: Professor John Monnier
+      Research focus on interferometric image reconstruction and instrumentation for optical/infrared astronomy.
   - area: MS Computer Science
-    institution: Carnegie Mellon University
+    institution: University of Chicago
     icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+    logo: UChicago_Shield_2Color_Maroon_WhiteFill_RGB.svg
+    date_start: 2024-09-25
+    date_end: 2025-06-01
     summary: |
-      GPA: 4.0/4.0
+      GPA: 3.82/4.0
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
+      Specialized in machine learning and high performance computing.
+  - area: BS Astronomy, Computer Science, BA Physics
+    institution: University of Chicago
     icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+    logo: UChicago_Shield_2Color_Maroon_WhiteFill_RGB.svg
+    date_start: 2020-09-25
+    date_end: 2024-06-01
     summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      GPA: 3.7/4.0
 
 work:
   - position: Senior AI Research Scientist
@@ -169,4 +168,7 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I'm a first year graduate student at the University of Michigan, working with Professor John Monnier. 
+I'm interested in both observational astronomy and instrumentation, with a goal of both designing and using cutting-edge instruments to push astronomical discovery.
+I also have a strong interest in computer science and machine learning, having completed both a Bachelor's and Master's degree in Computer Science prior to starting my PhD.
+My current work focuses on developing novel techniques to reconstruct images from interferometric data in optical/infrared astronomy. Using these techniques, I aim to study the environments around young stellar objects and understand the processes of star and planet formation. Before starting my PhD, I worked with Professor Jacob Bean at the University of Chicago on improving the stability and precision of MAROON-X, a high-resolution spectrograph for exoplanet detection.
