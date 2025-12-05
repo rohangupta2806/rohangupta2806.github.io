@@ -32,10 +32,11 @@ header:
     enable: true
     block: 'navbar'
     fixed_to_top: true
-    show_search: true
+    show_search: false
     show_theme_chooser: true
     logo:
-      text: 'Your Name'
+      filename: icon.svg
+      text: 'Rohan Gupta'
 
 # Site footer
 footer:

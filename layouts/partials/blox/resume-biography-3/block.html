@@ -15,6 +15,7 @@
 {{end}}
 {{ $person := $person_page.Params }}
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
+{{ $show_education_cards := false }}
 
 {{/* Avatar customization parameters */}}
 {{ $avatar_size := $block.design.avatar.size | default "large" }}
@@ -174,38 +175,7 @@
         {{ end }}
 
         {{/* Education Section */}}
-        {{ with $person.education }}
-        <div class="mb-16">
-          <div class="flex items-center gap-4 mb-8">
-            <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
-              {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
-            </div>
-            {{ $education_heading := $block.content.headings.education | default (i18n "education") }}
-            <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $education_heading | markdownify }}</h3>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-            {{ range . }}
-            <div class="h-full flex flex-col bg-gradient-to-br from-white/90 to-primary-50/30 dark:from-gray-800/90 dark:to-primary-900/20 rounded-xl p-6 shadow-md border border-transparent backdrop-blur-md">
-              <div class="flex gap-4">
-                <div class="flex-shrink-0 w-12 h-12 bg-white dark:bg-gray-800 ring-1 ring-gray-200 dark:ring-gray-700 rounded-full flex items-center justify-center shadow-md">
-                  {{ if .icon }}
-                    {{ partial "functions/get_icon" (dict "name" .icon "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
-                  {{else}}
-                    {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
-                  {{end}}
-                </div>
-                <div class="flex-1 flex-grow">
-                  <p class="text-xl font-bold text-gray-900 dark:text-white">
-                    {{ .area }}{{ with .year }}, {{ . }}{{ end }}
-                  </p>
-                  <p class="text-gray-600 dark:text-gray-400 font-medium mt-1">{{ .institution }}</p>
-                </div>
-              </div>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-        {{ end }}
+        
 
         {{/* Interests Section */}}
         {{ with $person.interests }}

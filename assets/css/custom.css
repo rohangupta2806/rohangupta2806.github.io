@@ -17,3 +17,57 @@
 .resume-biography .group:hover .dark\:group-hover\:text-primary-400 {
   color: inherit !important;
 }
+
+/* Smooth scrolling for in-page anchor navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reduce spacing between Experience and Skills/Languages sections */
+section#skills.hbb-section,
+section#languages.hbb-section {
+  padding-top: 1.5rem;
+  margin-top: -1rem;
+}
+
+/* Display languages as simple pills instead of progress circles */
+section#languages .flex.items-center.flex-col.lg\:flex-row {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+section#languages .flex.items-center.flex-col.lg\:flex-row > div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section#languages .flex.items-center.flex-col.lg\:flex-row > div > div {
+  display: none;
+}
+
+section#languages .flex.items-center.flex-col.lg\:flex-row > div > span {
+  display: inline-block;
+  padding: 0.35rem 1.1rem;
+  border-radius: 9999px;
+  background-color: rgba(15, 23, 42, 0.08);
+  color: #0f172a;
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  section#languages .flex.items-center.flex-col.lg\:flex-row > div > span {
+    background-color: rgba(226, 232, 240, 0.2);
+    color: #e2e8f0;
+  }
+}
+/* Consistent sizing for education timeline logos */
+.education-entry-logo {
+  max-width: 60px;
+  max-height: 32px;
+}
+.education-entry-logo.large {
+  max-height: 40px;
+}
