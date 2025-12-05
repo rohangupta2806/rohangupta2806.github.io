@@ -44,4 +44,8 @@ abstract: Recent advancements in sensing and observation technology have created
 tags:
 - Optical Communications
 
+image:
+  caption: 'Optical Payload design in CAD'
+  focal_point: ""
+  preview_only: false
 ---

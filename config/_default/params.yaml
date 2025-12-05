@@ -35,7 +35,7 @@ header:
     show_search: false
     show_theme_chooser: true
     logo:
-      filename: icon.svg
+      filename:
       text: 'Rohan Gupta'
 
 # Site footer

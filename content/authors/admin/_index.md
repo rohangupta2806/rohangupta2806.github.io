@@ -94,30 +94,30 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: C/C++, Python, Julia
         description: ''
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
+      - name: High Performance Computing (CUDA, MPI)
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+        icon: cpu-chip
+      - name: Data Visualization (D3.js, Matplotlib)
         description: ''
         percent: 85
-        icon: cloud
+        icon: chart-bar
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Biking
         description: ''
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        icon: custom/person-simple-bike
+      - name: Flying/ Aviation
         description: ''
         percent: 90
-        icon: cpu-chip
+        icon: custom/airplane-tilt
       - name: Sci-Fi Reading
         description: ''
         percent: 70
