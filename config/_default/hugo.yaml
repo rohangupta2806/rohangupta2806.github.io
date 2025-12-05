@@ -6,7 +6,9 @@
 # Website name
 title: Rohan's Website
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://rohangupta2806.github.io'
+
+description: "Astronomy PhD student working on optical interferometry, generative priors, and protoplanetary disks."
 
 ############################
 ## LANGUAGE
